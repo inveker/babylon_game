@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "b-ai": "cd bot && npm run build",
+    "b-front": "cd front && npm run build",
+    "b-back": "cd back && npm run build",
+    "b-all": "npm run b-ai && npm run b-front && npm run b-back",
+    "s-front": "cd front && npm run start",
+    "server": "node dist/back/server.js",
+    "bots": "node dist/bot/ai.js"
+  },
+  "dependencies": {
+    "oimo": "^1.0.9",
+    "xmlhttprequest": "^1.8.0"
+  }
+}

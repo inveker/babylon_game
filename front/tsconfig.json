@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "noResolve": false,
+    "noImplicitAny": false,
+    "sourceMap": false,
+    "preserveConstEnums":true,
+    "lib": [
+      "dom",
+      "es6"
+    ]
+  }
+}
